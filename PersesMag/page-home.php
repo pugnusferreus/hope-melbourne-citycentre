@@ -34,11 +34,11 @@ get_header(); // Loads the header.php template. ?>
 				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
 				<li style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;" class="">
 					
-					<a title="Something something 1" href="http://www.simplewpthemes.com/themesdemos/?p=374&amp;themedemo=PersesMag">
+					
 						<img style="height: 300px;"  src="<?php echo $image[0]; ?>" >
-					</a>
+					
 					<div class="flex-caption">
-						<h2 class="flex-title"><a href="http://www.simplewpthemes.com/themesdemos/?p=374&amp;themedemo=PersesMag" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+						<h2 class="flex-title"><?php the_title(); ?></h2>
 						<?php the_excerpt(); ?>
 						<?php $external_link = get_post_meta( $post->ID, 'external_link', true); ?> 
 						<?php if($external_link != '') { ?>

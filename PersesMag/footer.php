@@ -24,7 +24,7 @@
 			<div class="wrap">
 				<a id="back-to-top" href="#container"></a>
 			
-					<p>Copyright &copy; <?php echo date('Y'); ?>. All Rights Reserved. Designed by <a href="http://www.simplewpthemes.com">WP Themes</a></p>
+					<p>Copyright &copy; <?php echo date('Y'); ?> Hope Melbourne City Centre. All Rights Reserved.</p>
 					
 			</div><!-- .wrap -->
 
