@@ -52,6 +52,7 @@ h6 { font-size: 14px; }
 .hfeed h4 { line-height: 16px; }
 .hfeed h5 { line-height: 15px; }
 .hfeed h6 { line-height: 14px; }
+.hfeed { margin-top: 15px;}
 
 /* Horizontal rule */
 hr {
@@ -385,16 +386,18 @@ body {
 /*-------------------------------------------------------------------------------------------*/
 
 #header {
+		vertical-align:middle;
         width: 1000px;
-        height: 128px;
+        height: 168px;
 		margin: 0 auto;
         clear: both;
         overflow: hidden;
 	}
 #branding {
 	float: left;
-        margin: 45px 0 0 16px;
+        margin: 45px 0 0 0;
 	text-transform: uppercase;
+	vertical-align:middle;
 	}
 #site-title {
 	font: 27px/27px 'Open Sans', sans-serif;
